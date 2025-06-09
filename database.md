@@ -9,3 +9,4 @@
 | mileage        | INT                                                                | NOT NULL, UNSIGNED                 |             |
 | fuel_type      | ENUM("gasoline", "diesel", "electric", "hybrid", "gpl", "methane") | NOT NULL                           |             |
 | transmission   | ENUM("automatic", "manual")                                        | NOT NULL                           |             |
+| has_accident   | BOOLEAN                                                            | NOT NULL, DEFAULT(0)               |             |
